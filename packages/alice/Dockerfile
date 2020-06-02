@@ -27,5 +27,5 @@ RUN cd packages/alice && npm run build
 
 # Serve
 
-FROM nginx:1.15-alpine
+FROM nginx:1.19-alpine
 COPY --from=builder /home/app/packages/alice/build /usr/share/nginx/html
