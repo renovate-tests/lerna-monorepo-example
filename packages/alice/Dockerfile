@@ -1,4 +1,4 @@
-FROM node:10.13-alpine as builder
+FROM node:10.24-alpine as builder
 
 # Environment
 
